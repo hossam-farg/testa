@@ -1,0 +1,21 @@
+{
+  "name": "Dentist",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "speciality": {
+      "type": "string",
+      "default": "general"
+    },
+    "id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
